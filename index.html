@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dolgozó űrlap</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="employeeForm">
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" placeholder="Adja meg a nevét" required value="Nagy Kitti">
+
+            <label for="dob">Születési dátum:</label>
+            <input type="date" id="dob" name="dob" required value="2008-01-01">
+
+            <label for="email">Email cím:</label>
+            <input type="email" id="email" name="email" placeholder="email@pelda.hu" required value="nkitti7@mts.rs">
+
+            <label for="postalCode">Irányítószám:</label>
+            <input type="text" id="postalCode" name="postalCode" placeholder="1234" required value="3993">
+
+            <label for="workplace">Munkahely neve:</label>
+            <input type="text" id="workplace" name="workplace" placeholder="Munkahely neve" required value="Hegyközi Nyelvoktató Szlovák Nemzetiségi Általános Iskola">
+
+            <input type="submit" value="Elküld">
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

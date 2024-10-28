@@ -1,6 +1,6 @@
 document.getElementById('employeeForm').addEventListener('submit', function(e) {
     e.preventDefault();
-s
+
     var name = document.getElementById('name').value.trim();
     var dob = document.getElementById('dob').value;
     var email = document.getElementById('email').value.trim();
